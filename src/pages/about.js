@@ -14,28 +14,27 @@ const About = () => {
       <main className="page">
         <section className="about-page">
           <article>
-            <h2>I'm baby coloring book poke taxidermy</h2>
+            <h2>Find and share everyday cooking inspiration</h2>
             <p>
-              Taxidermy forage glossier letterpress heirloom before they sold
-              out you probably haven't heard of them banh mi biodiesel chia.
-            </p>
-            <p>
-              Taiyaki tumblr flexitarian jean shorts brunch, aesthetic salvia
-              retro.
+              Recipes Fiesta is here to help you cook delicious meals with less
+              stress and more joy. We offer recipes and cooking advice for home
+              cooks, by home cooks.
             </p>
             <Link to="/contact" className="btn">
               contact
             </Link>
           </article>
           <StaticImage
-            src="../assets/images/about.jpeg"
+            src="../assets/images/about2.jpg"
             alt="Person Pouring Salt in Bowl"
             className="about-img"
             placeholder="blurred"
           />
         </section>
         <section className="featured-recipes">
-          <h5>Look at this Awesonesouce!</h5>
+          <h5 className="text-quote">
+            When life gives you lemons, make lemonade!
+          </h5>
           <RecipesList recipes={recipes} />
         </section>
       </main>

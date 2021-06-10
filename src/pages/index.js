@@ -11,7 +11,7 @@ export default function Home() {
       <main className="page">
         <header className="hero">
           <StaticImage
-            src="../assets/images/main.jpeg"
+            src="../assets/images/main.jpg"
             alt="eggs"
             className="hero-img"
             placeholder="tracedSVG"
@@ -19,8 +19,8 @@ export default function Home() {
           />
           <div className="hero-container">
             <div className="hero-text">
-              <h1>simply recipes</h1>
-              <h4>no fluff, Just Recipes</h4>
+              <h1>Food is memories..!!</h1>
+              <h4>good food, good life!</h4>
             </div>
           </div>
         </header>
