@@ -14,12 +14,6 @@ module.exports = {
     description:
       "For home cooks who are hungry for something good: Find thousands of tested recipes, menus, cooking shortcuts, dinner ideas, family meals, and more...",
     author: "@aljorgevi",
-    person: { name: "Jorge", age: 31 },
-    simpleData: ["item1", "item2"],
-    complexData: [
-      { name: "Jorge", age: 31 },
-      { name: "Susan", age: 21 },
-    ],
   },
   plugins: [
     `gatsby-plugin-styled-components`,
