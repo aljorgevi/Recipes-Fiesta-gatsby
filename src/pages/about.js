@@ -1,7 +1,7 @@
-import React from "react"
+import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link, graphql, useStaticQuery } from "gatsby"
-import SEO from "../components/SEO"
+import Seo from "../components/SEO"
 import Layout from "../components/Layout"
 import RecipesList from "../components/RecipesList"
 
@@ -10,7 +10,7 @@ const About = () => {
   const recipes = data.allContentfulRecipe.nodes
   return (
     <Layout>
-      <SEO title="About" />
+      <Seo title="About" />
       <main className="page">
         <section className="about-page">
           <article>
@@ -25,7 +25,7 @@ const About = () => {
             </Link>
           </article>
           <StaticImage
-            src="../assets/images/about2.jpg"
+            src="../assets/images/about.jpg"
             alt="Person Pouring Salt in Bowl"
             className="about-img"
             placeholder="blurred"

@@ -1,4 +1,4 @@
-import React from "react"
+import * as React from "react"
 import slugify from "slugify"
 import { Link } from "gatsby"
 import setupTags from "../utils/setupTags"

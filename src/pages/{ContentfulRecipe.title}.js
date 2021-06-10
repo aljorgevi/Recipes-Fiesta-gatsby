@@ -1,10 +1,10 @@
-import React from "react"
-import slugify from "slugify"
+import * as React from "react"
 import { graphql, Link } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { BsClockHistory, BsClock, BsPeople } from "react-icons/bs"
-import SEO from "../components/SEO"
+import slugify from "slugify"
 import Layout from "../components/Layout"
+import Seo from "../components/SEO"
 
 const RecipeTemplate = ({ data }) => {
   const {
@@ -21,7 +21,7 @@ const RecipeTemplate = ({ data }) => {
   const { tags, instructions, ingredients, tools } = content
   return (
     <Layout>
-      <SEO title={title} description={description} />
+      <Seo title={title} description={description} />
       <main className="page">
         <div className="recipe-page">
           {/* hero */}

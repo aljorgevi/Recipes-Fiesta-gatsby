@@ -1,7 +1,7 @@
-import React from "react"
+import * as React from "react"
 import { graphql, Link, useStaticQuery } from "gatsby"
 import slugify from "slugify"
-import SEO from "../components/SEO"
+import Seo from "../components/SEO"
 import Layout from "../components/Layout"
 import setupTags from "../utils/setupTags"
 
@@ -11,7 +11,7 @@ const Tags = () => {
 
   return (
     <Layout>
-      <SEO title="Tags" />
+      <Seo title="Tags" />
       <main className="page">
         <section className="tags-page">
           {newTags.map((tag, index) => {

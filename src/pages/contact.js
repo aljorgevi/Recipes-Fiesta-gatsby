@@ -1,6 +1,6 @@
-import React from "react"
+import * as React from "react"
 import { graphql, useStaticQuery } from "gatsby"
-import SEO from "../components/SEO"
+import Seo from "../components/SEO"
 import Layout from "../components/Layout"
 import RecipesList from "../components/RecipesList"
 
@@ -9,7 +9,7 @@ const Contact = () => {
   const recipes = data.allContentfulRecipe.nodes
   return (
     <Layout>
-      <SEO title="Contact" />
+      <Seo title="Contact" />
       <main className="page">
         <section className="contact-page">
           <article className="contact-info">
