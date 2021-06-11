@@ -5,7 +5,7 @@
 Hi there! 👋  This is the repo for a recipe site. It's built on Gatsby. The data is living in Contentful, a headless CMS, and is pulled at build-time. The site is hosted on Netlify.
 
 
-### Link [Live View](https://recipes-gatsbyapp.netlify.app/)
+### Link [Live View](https://recipes-fiesta-gatsby.netlify.app/)
 
 ## Getting Started
 
